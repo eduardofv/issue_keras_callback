@@ -1,0 +1,31 @@
+Binary file /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/__pycache__/callbacks.cpython-36.pyc matches
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/callbacks.py:120:  callback_list.model.stop_training = False
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/callbacks.py:709:        self.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/callbacks.py:961:      if self.model.stop_training or getattr(
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/callbacks.py:1271:        self.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/callbacks.py:2026:    if self.model.stop_training:
+Binary file /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/__pycache__/training_generator.cpython-36.pyc matches
+Binary file /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/__pycache__/training_v2.cpython-36.pyc matches
+Binary file /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/__pycache__/training_distributed.cpython-36.pyc matches
+Binary file /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/__pycache__/training_arrays.cpython-36.pyc matches
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_distributed.py:256:      if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_distributed.py:281:    if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:112:  if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:145:          callbacks.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:183:    if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:316:          if training_context.callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:355:                not training_callbacks.model.stop_training):
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_v2.py:744:    callbacks.model.stop_training = False
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:260:  callbacks.model.stop_training = False
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:267:    if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:312:              callbacks.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:328:            callbacks.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:356:        if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:412:        if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_arrays.py:424:        not callbacks.model.stop_training):
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:195:  callbacks.model.stop_training = False
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:202:    if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:229:            callbacks.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:245:          callbacks.model.stop_training = True
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:298:      if callbacks.model.stop_training:
+/usr/local/lib/python3.6/dist-packages/tensorflow_core/python/keras/engine/training_generator.py:310:        not callbacks.model.stop_training):

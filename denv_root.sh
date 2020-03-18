@@ -1,0 +1,12 @@
+use_nvidia=""
+
+nvidia-smi > /dev/null
+if [ $? -eq 0 ]; then
+	use_nvidia='--runtime=nvidia'
+	echo "Using NVIDIA runtime"
+else
+	echo "NVIDIA not found"
+fi
+	
+docker run $use_nvidia --rm -it -v $(pwd)/data:/root/data -v $(pwd):/root -e "HOST_HOSTNAME=$(hostname)" tensorflow/tensorflow:nightly-py3 /bin/bash
+#docker run $use_nvidia --rm -it -v $(pwd)/data:/root/data -v $(pwd):/root -e "HOST_HOSTNAME=$(hostname)" lm_eval:latest /bin/bash
